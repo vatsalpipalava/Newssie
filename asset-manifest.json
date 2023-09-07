@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Newssie/static/css/main.3150712b.css",
+    "main.js": "/Newssie/static/js/main.cb44cf00.js",
+    "static/js/787.37f47b00.chunk.js": "/Newssie/static/js/787.37f47b00.chunk.js",
+    "index.html": "/Newssie/index.html",
+    "main.3150712b.css.map": "/Newssie/static/css/main.3150712b.css.map",
+    "main.cb44cf00.js.map": "/Newssie/static/js/main.cb44cf00.js.map",
+    "787.37f47b00.chunk.js.map": "/Newssie/static/js/787.37f47b00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3150712b.css",
+    "static/js/main.cb44cf00.js"
+  ]
+}
