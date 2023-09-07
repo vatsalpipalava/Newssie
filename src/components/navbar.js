@@ -40,14 +40,14 @@ export default class Navigationbar extends Component {
                     </Navbar>
                 </div>
                 <div>
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/top" element={<Top />} />
-                        <Route path="/trending" element={<Trending />} />
-                        <Route path="/science" element={<Science />} />
-                        <Route path="/entertainment" element={<Entertainment />} />
-                        <Route path="/sports" element={<Sports />} />
-                    </Routes>
+                        <Routes>
+                            <Route path="/" element={<Home />} />
+                            <Route path="/top" element={<Top />} />
+                            <Route path="/trending" element={<Trending />} />
+                            <Route path="/science" element={<Science />} />
+                            <Route path="/entertainment" element={<Entertainment />} />
+                            <Route path="/sports" element={<Sports />} />
+                        </Routes>
                 </div>
             </Router>
         )
