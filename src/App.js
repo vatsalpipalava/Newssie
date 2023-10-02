@@ -8,17 +8,18 @@ import Entertainment from './components/entertainment';
 import Sports from './components/sports';
 
 import {
-  BrowserRouter as HashRouter,
+  HashRouter as Router,
   Routes,
   Route,
   Link,
+  HashRouter
 } from "react-router-dom";
 
 function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" exact element={<Home />} />
         <Route path="/top" element={<Top />} />
         <Route path="/trending" element={<Trending />} />
         <Route path="/science" element={<Science />} />
