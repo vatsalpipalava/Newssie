@@ -22,13 +22,13 @@ export default class Navigationbar extends Component {
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ms-auto" variant="pills" defaultActiveKey="link-1">
-                            <Nav.Link as={Link} to="/" className='nav-link-a' eventKey="link-1">Home</Nav.Link>
-                            <Nav.Link as={Link} to="/top" className='nav-link-a' eventKey="link-2">Top</Nav.Link>
-                            <Nav.Link as={Link} to="/trending" className='nav-link-a' eventKey="link-3">Trending</Nav.Link>
-                            <Nav.Link as={Link} to="/science" className='nav-link-a' eventKey="link-4">Science</Nav.Link>
-                            <Nav.Link as={Link} to="/entertainment" className='nav-link-a' eventKey="link-5">Entertainment</Nav.Link>
-                            <Nav.Link as={Link} to="/sports" className='nav-link-a' eventKey="link-6" style={{ marginRight: '0px !important' }}>Sports</Nav.Link>
+                        <Nav className="ms-auto">
+                            <Nav.Link as={Link} to="/" className='nav-link-a'>Home</Nav.Link>
+                            <Nav.Link as={Link} to="/top" className='nav-link-a'>Top</Nav.Link>
+                            <Nav.Link as={Link} to="/trending" className='nav-link-a'>Trending</Nav.Link>
+                            <Nav.Link as={Link} to="/science" className='nav-link-a'>Science</Nav.Link>
+                            <Nav.Link as={Link} to="/entertainment" className='nav-link-a'>Entertainment</Nav.Link>
+                            <Nav.Link as={Link} to="/sports" className='nav-link-a' style={{ marginRight: '0px !important' }}>Sports</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -5,11 +5,21 @@
   }
 }
 
-.main-main-container{
+@media (max-width: 992px) {
+  .navbar-expand-lg .navbar-nav {
+    gap: 10px;
+  }
+
+  .nav-link-a {
+    width: 100% !important;
+  }
+}
+
+.main-main-container {
   margin-top: 80px;
 }
 
-.main-container{
+.main-container {
   padding: 10px 25px !important;
   max-width: 1225px;
   margin-top: 25px !important;
@@ -45,7 +55,7 @@
   background-color: #202e38 !important;
 }
 
-.logo{
+.logo {
   width: 120px;
   height: auto;
 }
@@ -79,13 +89,13 @@
   padding: 0px 15px !important;
 }
 
-.news-main-title{
+.news-main-title {
   color: #000;
   text-align: center;
   font-size: 30px;
 }
 
-.news-heading-under-line{
+.news-heading-under-line {
   margin-top: 10px;
   height: 4px;
   width: 60px;
@@ -100,6 +110,8 @@
   width: 120px;
   text-align: center;
   margin-right: 5px;
+  border-radius: 10px;
+  transition: .4s !important;
 }
 
 .nav-pills .nav-link.active,
@@ -113,5 +125,4 @@
   transition: ease-in;
   background-color: white !important;
   border-radius: 10px;
-  transition: 0.5s;
 }
