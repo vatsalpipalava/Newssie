@@ -1,6 +1,3 @@
-# Check my project in live server on github pages
-https://vatsalpipalava.github.io/Newssie
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
