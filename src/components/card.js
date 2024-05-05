@@ -27,7 +27,9 @@ function NewsCard({ apiUrl }) {
     <>
       <Container fluid className="main-container">
         <Row xs={1} sm={2} md={2} lg={3} className="g-4">
-          {mydata.map((value, index) => (
+
+          {
+            mydata.map((value, index) => (
             <Col key={index} className="container-fluid mt-4">
               <Card className="news-card">
                 <Card.Img className="card-img" variant="top" src={value.imageUrl} />
